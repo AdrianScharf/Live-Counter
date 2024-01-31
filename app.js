@@ -32,16 +32,15 @@ const getCurrentStreak = (units, startDate) => {
 // NoFap
 const itemsNf = document.querySelectorAll('p .num-nf');
 console.log(itemsNf);
-const startDateNf = new Date(2024, 0, 1, 5, 36, 0);
+const startDateNf = new Date(2024, 0, 31, 5, 36, 0);
 
 setInterval(() => {
     getCurrentStreak(itemsNf, startDateNf)
 }, 1000);
 
-
 // Semen Retention
 const itemsSr = document.querySelectorAll('p .num-sr');
-const startDateSr = new Date(2024, 0, 1, 5, 36, 0);
+const startDateSr = new Date(2024, 0, 31, 5, 36, 0);
 
 setInterval(() => {
     getCurrentStreak(itemsSr, startDateSr)
